@@ -1,0 +1,27 @@
+base_url = "https://emin.sh"
+theme = "terminimal"
+
+compile_sass = true
+
+build_search_index = true
+
+generate_feeds = true
+
+feed_filenames = ["rss.xml", "atom.xml"]
+
+taxonomies = [
+    {name = "tags"}
+]
+
+[markdown]
+highlight_code = true
+highlight_theme = "gruvbox-dark"
+
+[extra]
+logo_text = "emin.sh"
+
+menu_items = [
+    {name = "blog", url = "$BASE_URL"},
+    {name = "about", url = "$BASE_URL/about"},
+    {name = "social", url = "$BASE_URL/social"},
+]

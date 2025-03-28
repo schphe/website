@@ -1,14 +1,5 @@
 {pkgs, ...}: {
   packages = with pkgs; [
-    dioxus-cli
-    lld
-    tailwindcss
-    wasm-bindgen-cli
+    zola
   ];
-
-  languages = {
-    rust = {
-      enable = true;
-    };
-  };
 }

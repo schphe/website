@@ -1,0 +1,47 @@
+@import "../themes/terminimal/sass/style.scss";
+
+@font-face {
+  font-family: "Monocraft";
+  src: url("https://github.com/IdreesInc/Monocraft/releases/download/v4.0/Monocraft-nerd-fonts-patched.ttc") format("ttc");
+}
+
+:root {
+  --accent: #83a598;
+  --accent-alpha-70: var(--accent);
+  --accent-alpha-20: var(--accent);
+  --border-color: var(--accent);
+
+  --background: #1d2021;
+  --color: #d5c4a1;
+
+  .logo {
+    color: #1d2021;
+  }
+}
+
+pre {
+  background-color: #222427 !important;
+  border: 0px;
+}
+
+* {
+  font-family: "Monocraft" !important;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .menu__inner li:not(:last-of-type) {
+    margin-bottom: 0px;
+  }
+}
+
+.post {
+  margin-top: 0px;
+}
+
+.footer {
+  display: none;
+}
